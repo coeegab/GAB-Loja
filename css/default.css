@@ -79,11 +79,14 @@ header nav a:hover{
     transform: translate(-50%, -50%);
     letter-spacing: 5px;
 }
+<<<<<<< HEAD
 .carousel-indicator [data-bs-target]{
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
+=======
+>>>>>>> 60a4ac8c83637d6e87e3abb86d572119062d2dd3
 
 .container{
     width: 100%;
@@ -120,6 +123,7 @@ header nav a:hover{
     color: #ffff;
     font-family: 'Libre Baskerville', serif;
     margin: auto;
+<<<<<<< HEAD
 }
 
 hr{
@@ -211,3 +215,6 @@ span{
     
 }
 
+=======
+}
+>>>>>>> 60a4ac8c83637d6e87e3abb86d572119062d2dd3
