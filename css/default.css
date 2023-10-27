@@ -79,6 +79,11 @@ header nav a:hover{
     transform: translate(-50%, -50%);
     letter-spacing: 5px;
 }
+.carousel-indicator [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
 
 .container{
     width: 100%;
@@ -124,4 +129,82 @@ hr{
     border-top: 3px solid #fba700;
 }
 
-.font
+.bot-pedi {
+    font-family: 'Libre Baskerville', serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 12px 20px 11px 20px;
+    border: 2px solid #FBA700;
+    bottom: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.bot-color:hover {
+    background-color: #c6a866;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: left;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: left;
+    align-items: center;
+}
+
+.font-foot{
+    color: yellow;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    letter-spacing: 5px;
+    line-height: 63px;
+    font-size: 14pt;
+}
+
+.font-foot2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    letter-spacing: 5px;
+    line-height: 63px;
+    font-size: 10pt;
+}
+span{
+    color: #fba700;
+    font-size: 30pt;
+    font-family: 'Arvo', serif;
+}
+
+.color-end{
+    background-color:#23160c;
+}
+
+/* mobile */
+@media (max-width:600px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+    }
+    
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/img/bars-solid.svg);
+        width: 24px;
+    }
+    
+}
