@@ -4,23 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
     font-size: 14pt;
 }
 
-a{
+a {
     text-decoration: none;
     color: #eee;
 }
 
-header{
+header {
     background-color: #23160c;
     opacity: 0.9;
     color: #eee;
@@ -30,47 +30,47 @@ header{
 
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #ddb99d;
     padding: 27px;
 
 }
 
-header nav a:hover{
-    border-bottom:solid 4px #ddb99d ;
+header nav a:hover {
+    border-bottom: solid 4px #ddb99d;
 }
 
-.right{
+.right {
     text-align: right;
 }
 
-.flex-nav{
+.flex-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.white{
+.white {
     color: #eee;
 }
 
-.icons{
+.icons {
     padding-right: 20px;
 
 }
 
-.icons img{
+.icons img {
     padding: 0 5px;
 }
 
-.carousel-item{
+.carousel-item {
     background-color: #805d65;
     height: 400px;
     position: relative;
 }
 
-.carousel-item .carousel-item-text{
+.carousel-item .carousel-item-text {
     text-align: center;
     color: #eee;
     position: absolute;
@@ -79,50 +79,52 @@ header nav a:hover{
     transform: translate(-50%, -50%);
     letter-spacing: 5px;
 }
-.carousel-indicator [data-bs-target]{
+
+.carousel-indicator [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
-.container{
+.container {
     width: 100%;
     min-width: 360px;
     max-width: 1280px;
     margin: auto;
 }
 
-.data{
+.data {
     color: #FBA700;
     font-family: 'Great Vibes', cursive;
     font-size: 28pt;
     padding-top: 80px;
 }
-.data-text{
+
+.data-text {
     color: #2c1e21;
-    font-family:'Arvo', sans-serif;
+    font-family: 'Arvo', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 63px;
     letter-spacing: 5px;
-    
+
 }
 
-.carrosel-text{
+.carrosel-text {
     font-size: 52px;
     color: #ffff;
-    font-family:'Arvo', sans-serif;
+    font-family: 'Arvo', sans-serif;
     margin: auto;
 }
 
-.carrosel-text2{
+.carrosel-text2 {
     font-size: 18px;
     color: #ffff;
     font-family: 'Libre Baskerville', serif;
     margin: auto;
 }
 
-hr{
+hr {
     size: 17px;
     width: 100%;
     vertical-align: center;
@@ -164,7 +166,7 @@ hr{
     align-items: center;
 }
 
-.font-foot{
+.font-foot {
     color: yellow;
     text-align: center;
     font-family: 'Arvo', serif;
@@ -173,7 +175,7 @@ hr{
     font-size: 14pt;
 }
 
-.font-foot2{
+.font-foot2 {
     color: #fff;
     text-align: center;
     font-family: 'Arvo', serif;
@@ -181,33 +183,87 @@ hr{
     line-height: 63px;
     font-size: 10pt;
 }
-span{
+
+span {
     color: #fba700;
     font-size: 30pt;
     font-family: 'Arvo', serif;
 }
 
-.color-end{
-    background-color:#23160c;
+.color-end {
+    background-color: #23160c;
 }
+
+
+.form-contact input[type='text']
+.form-contact input[type='tel']
+.form-contact input[type='email']
+.form-contact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #EEEE;
+    border: solid 1px #CEB989;
+
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: solid 2px #ffaa00;
+    background-color: #EEEE;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* mobile */
 @media (max-width:600px) {
-    .logo{
+    .logo {
         display: none;
     }
-    .flex-nav{
+
+    .flex-nav {
         flex-direction: column;
     }
-    
-    .flex-nav a{
+
+    .flex-nav a {
         display: flex;
         justify-content: center;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         background-image: url(/img/bars-solid.svg);
         width: 24px;
     }
-    
 }
-
